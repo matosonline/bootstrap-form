@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+	<html lang="en-us">
+		<head>
+			<title>Rick's Bootstrap Form</title>
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+			<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+			<link re="stylesheet" href="style.scc" type="test/css">
+		</head>
+		<body>
+			<div =="container-fluid">
+				<div class="card ml-3 mr-3">
+					<div class="card-header">
+						<h5>Rick's Sample Form</h5>
+						<h6 class="card-subtitle text-muted">With Bootstrap</h6>
+					</div>	
+					<div class="card-body">
+						<form>
+							<div class="row">
+								<div class="col-6">
+									<div class="form-group row">
+							           	<label class="col-3 text-right" for="gender"><strong>Gender</strong></label>
+							           		<div class="col-9">
+							               		<select name="gender" class="form-control" type="text">
+							                   		<option value="item1">Male</option>
+							                   	    <option value="item2">Female</option>
+							                   	    <option value="item2">Confused</option>
+							               	        <option value="item3">Other</option>
+							           	        </select>
+							       	            <small class="text text-muted">Select an option</small>
+											</div>
+									</div>
+									<div class="form-group row">
+							           	<label for="birthdate" class="col-3 text-right"><strong>Birthdate</strong></label>
+							               	<div class="col-5">
+								               	<div class="input-group">
+								                   	<input type="date" name="birthdate" id="birthdate" class="form-control" type="date">
+								                       <div class="input-group-addon fa fa-calendar"></div>
+								                   </div>
+											</div>
+									</div>
+									<div class="form-group row">
+							           	<label for ="security-answer" class="col-3 text-right"><strong>Security answer</strong></label>
+							           		<div class="col-9">
+								               	<div class="has-feedback">
+								                   	<input name="security-answer" class="form-control" type="text">
+								                           <small class="text text-muted">Click to clear contents.</small>
+								                   </div>
+							           		</div>
+							           </div>
+									<div class="form-group row">
+							           	<label for="phone" class="col-3 text-right"><strong>Phone number</strong></label>
+						                       <div class="col-9">
+						                       	<input name="phone" class="form-control" type="number">
+							           		</div>
+							           </div>
+									<div class="form-group row">
+										<label for="money-inputs-left" class="col-3 text-right"><strong>Money Collected</strong></label>
+							                   <div class="col-9">
+								                   <div class="row">
+								                    <div class="col-4">
+								                    	<div class="input-group">
+								                        	<div class="input-group-addon">$</div>
+								                            <input name="amount1" class="form-control" type="number">
+								                        </div>
+								                        <small class="text text-muted">First</small>
+													</div>
+													<div class="col-4">
+														<div class="input-group">
+									                    	<div class="input-group-addon">$</div>
+									                        <input name="amount2" class="form-control" type="number">
+									                    </div>
+								                        <small class="text text-muted">Second</small>
+													</div>
+													<div class="col-4">
+														<div class="input-group">
+								                        	<div class="input-group-addon">$</div>
+								                            <input name="amount3" class="form-control" type="number">
+								                        </div>
+								                        <small class="text text-muted">Third</small>
+													</div>
+												</div>
+											</div>
+									</div>
+								</div>
+<!------------------------------divide--------------------------------->
+								<div class="col-6">
+									<div class="form-group row">
+										<label for="user-email" class="col-3 text-right"><strong>Email</strong></label>
+											<div class="col-9">	
+												<input name="user-email" class="form-control input-sm" type="email" required="">
+												<small class="text text-muted">Small size input box</small>
+											</div>
+									</div>
+									<div class="form-group row">
+										<label for="password" class="col-3 text-right"><strong>Password</strong></label>
+											<div class="col-9">
+												<input name="password" class="form-control input-sm" type="Password">
+												<small class="text text-muted">Small size input box</small>
+											</div>
+									</div>
+									<div class="form-group row">
+										<label for="user-comments" class="col-3 text-right"><strong>Do you have any special comments?</strong></label>
+											<div class="col-9">	
+												<textarea name="user-comments" class="form-control input-lg" rows="3"></textarea>
+											</div>
+									</div>
+									<div class="form-group row">
+										<label for="age" class="col-3 text-right"><strong>Age</strong></label>
+											<div class="col-9">
+												<input name="age" class="form-control input-sm" type="number" size="6" min="18" max="99" value="21">
+												<small class="text text-muted">Small size input box</small>
+											</div>
+									</div>
+									<div class="form-group row">
+										<div class="col-3"></div>
+										<div class="col-9">
+											<button class="btn btn-lg btn-danger"><i class="fa fa-remove"></i> CLEAR</button>
+											<button class="btn btn-lg btn-warning"><i class="fa fa-refresh"> Reset Form</i></button>
+											<button class="btn btn-lg btn-primary"><i class="fa fa-upload"> Submit</i></button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>	
+				</div>
+			</div>	
+		</body>
+	</html>
+	
+	
+	
